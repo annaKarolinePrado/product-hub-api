@@ -8,8 +8,8 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.games</groupId>
-	<artifactId>games-api</artifactId>
+	<groupId>com.product-hub-api</groupId>
+	<artifactId>product-hub-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>games-api</name>
 	<description>Projeto para criação de um projeto web básico</description>
