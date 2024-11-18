@@ -20,4 +20,4 @@ COPY src ./src
 RUN ./mvnw package -DskipTests
 
 # Executar a aplicação
-CMD ["java", "-jar", "target/games-api-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/product-hub-api-0.0.1-SNAPSHOT.jar"]
