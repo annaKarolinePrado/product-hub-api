@@ -38,7 +38,7 @@ public class SecurityConfig {
                         .requestMatchers("/refresh").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/users").permitAll()
                         .requestMatchers("/api/users/**").hasAnyAuthority("FREE", "ROOT")
-                        .requestMatchers("/api/produtos/**").hasAnyAuthority("FREE", "ROOT")
+                        .requestMatchers("/api/prodcts/**").hasAnyAuthority("FREE", "ROOT")
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
